@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\pre-dexed\debug\classes-dfbb840a9f828c37605f24f5445733eccfc2af9b.jar"
+        jar="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-89fdf980b2920c2d8cc5aa3268e03fd6648e2af2.jar"
+        jar="C:\Users\Ryan\Downloads\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\pre-dexed\debug\classes-1b1a6f119ba3b320a67e41ecc0d4e4548d7a97aa.jar"
+        jar="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="6c6b497aa9e3aadbaabf975379e7914fa9e65523"/>
+    <item
+        dex="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-1e6a75d4c591aa7123b43dae79c70f0a172fd481.jar"
+        jar="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\pre-dexed\debug\classes-144721342842eabdb4649ab10c79fbaeb0704eab.jar"
+        jar="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+
+</pre-dex-items>
