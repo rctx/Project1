@@ -39,16 +39,16 @@ public class MainActivity extends Activity implements OnClickListener {
 			System.out.println("separated length:" + separated.length + " i:" + i);
 			String[] sep2 = separated[i].split(",");
 			if(sep2[0] == null){System.out.println("sep2 was null in oncreate:");return;}
-			
+			if(sep2.length < 3){return;}
 			TextView textview = new TextView(this);
 			String entryString = "";
 			if(sep2[0] != null){
 				entryString += sep2[0];
 			}
-			if(sep2[1] != null){
+			if( sep2.length > 0 && sep2[1] != null){
 				entryString += " " + sep2[1];
 			}
-			if(sep2[2] != null){
+			if(sep2.length > 0 && sep2[2] != null){
 				entryString += "   " + sep2[2];
 			}
 			textview.setText(entryString);
@@ -79,7 +79,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		TableRow trB = new TableRow(this);
 		Button btn=new Button(this);
 		btn.setText("Add Person");
-		btn.setId(-10);
+		//btn.setId(-10);
 		btn.setOnClickListener(this);
 		trB.addView(btn);
 		tl.addView( trB , new TableLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));

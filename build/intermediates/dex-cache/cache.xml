@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\pre-dexed\debug\classes-dfbb840a9f828c37605f24f5445733eccfc2af9b.jar"
-        jar="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jar="C:\Users\Ryan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
         jumboMode="false"
-        revision="21.1.0"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-74709ac703ed2eca15b0763bcd4ed2065048a910.jar" />
+    </item>
     <item
-        dex="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-89fdf980b2920c2d8cc5aa3268e03fd6648e2af2.jar"
-        jar="C:\Users\Ryan\Downloads\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jar="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.0\classes.jar"
         jumboMode="false"
-        revision="21.1.0"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+        revision="21.1.2"
+        sha1="6c6b497aa9e3aadbaabf975379e7914fa9e65523">
+        <dex dex="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\pre-dexed\debug\classes-1bd080954a5866bb617e10199a08d35547e9c6b6.jar" />
+    </item>
     <item
-        dex="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\pre-dexed\debug\classes-1b1a6f119ba3b320a67e41ecc0d4e4548d7a97aa.jar"
-        jar="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.0\classes.jar"
+        jar="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
         jumboMode="false"
-        revision="21.1.0"
-        sha1="6c6b497aa9e3aadbaabf975379e7914fa9e65523"/>
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\pre-dexed\debug\classes-33df8ded0c86686707711f9bd81bb414a7a86536.jar" />
+    </item>
     <item
-        dex="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-1e6a75d4c591aa7123b43dae79c70f0a172fd481.jar"
-        jar="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jar="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
         jumboMode="false"
-        revision="21.1.0"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+        revision="21.1.2"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\pre-dexed\debug\classes-9f5f21f2f32912fc1cfab804e902f697f7addaa2.jar" />
+    </item>
     <item
-        dex="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\pre-dexed\debug\classes-144721342842eabdb4649ab10c79fbaeb0704eab.jar"
-        jar="C:\Users\Ryan\AndroidstudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
+        jar="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
         jumboMode="false"
-        revision="21.1.0"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-152d930406c9bef45d78c438ec8a11ba616da36f.jar" />
+    </item>
 
-</pre-dex-items>
+</items>
