@@ -1,6 +1,9 @@
-/**
- * 
- */
+/*
+Ryan Carley
+rjc074000
+3/18/15
+Purpose: Allow saving to a reading from data file on android device
+*/
 package com.example.project1;
 
 import java.io.BufferedReader;
@@ -18,24 +21,26 @@ import android.os.Environment;
  */
 public class FileIO {
 
-	/**
-	 * 
-	 */
 	public FileIO() {
-		// TODO Auto-generated constructor stub
+		// Constructor
 	}
+
+    // Writes to the file
 	public void writeFile(String data){
 		File file = null;
 	    PrintWriter pw = null;
 	    int linect = 0;
 	    Scanner s = null;
 	    boolean bExists;
-	    
+
+        // The name of the file
 	    String strFilename = "MyMsgs.txt";
 	    try
 	      {
 	    	File newFolder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),"MsgFolder");
-	    	if (!newFolder.exists())
+
+            // Check if the file exists, if not create it
+            if (!newFolder.exists())
 	        {
 	    		bExists = newFolder.mkdirs();
 	        }
@@ -59,6 +64,7 @@ public class FileIO {
 	      }
 	    try
 	      {
+            // Write the data to the file
 	    	pw = new PrintWriter(file);
 	    	pw.write(data);
 	    	pw.close();
@@ -79,11 +85,14 @@ public class FileIO {
 	    boolean bExists;
 	    FileInputStream fis = null;
 	    BufferedReader bfr = null;
-	    
+
+        // File name
 	    String strFilename = "MyMsgs.txt";
 	    try
 	      {
 	    	File newFolder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),"MsgFolder");
+
+            // Chekc if file exists, if not the create it
 	    	if (!newFolder.exists())
 	        {
 	    		bExists = newFolder.mkdirs();
@@ -109,6 +118,7 @@ public class FileIO {
 	      }
 	    try
 	      {
+            // Read in the file and send back to activity
 	    	System.out.println("In readFile try");
 	    	fis = new FileInputStream(file);
 	    	bfr = new BufferedReader(new InputStreamReader(fis));

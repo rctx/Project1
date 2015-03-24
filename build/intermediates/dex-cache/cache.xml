@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Ryan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-74709ac703ed2eca15b0763bcd4ed2065048a910.jar" />
-    </item>
-    <item
-        jar="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.0\classes.jar"
+        jar="E:\AndroidStudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="6c6b497aa9e3aadbaabf975379e7914fa9e65523">
-        <dex dex="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\pre-dexed\debug\classes-1bd080954a5866bb617e10199a08d35547e9c6b6.jar" />
+        <dex dex="E:\AndroidStudioProjects\Project1\app\build\intermediates\pre-dexed\debug\classes-c17e381935e5a272191b1088ff03885393ed9fd9.jar" />
     </item>
     <item
-        jar="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\pre-dexed\debug\classes-33df8ded0c86686707711f9bd81bb414a7a86536.jar" />
-    </item>
-    <item
-        jar="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
-        <dex dex="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\pre-dexed\debug\classes-9f5f21f2f32912fc1cfab804e902f697f7addaa2.jar" />
-    </item>
-    <item
-        jar="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jar="E:\AndroidStudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="C:\Users\Ryan\Documents\GitHub\Project1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-152d930406c9bef45d78c438ec8a11ba616da36f.jar" />
+        <dex dex="E:\AndroidStudioProjects\Project1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-74ac91720619edb691b24dd45d8a516e6b4c9a58.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="E:\AndroidStudioProjects\Project1\app\build\intermediates\pre-dexed\debug\classes-4148146b299df9a21ff70150bc6ceb107065321b.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Project1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="E:\AndroidStudioProjects\Project1\app\build\intermediates\pre-dexed\debug\classes-67ac54179f810eab8f28e0e247d5bf8f6241ce8d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rctx\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="E:\AndroidStudioProjects\Project1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-32606a3121e75003f40eae24936daa91d2a4954a.jar" />
     </item>
 
 </items>

@@ -131,7 +131,7 @@
         app:layout_gravity="left|top"
         app:layout_row="5"
         android:ems="10"
-        android:inputType="numberPassword" />
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/textView4"

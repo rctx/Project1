@@ -1,4 +1,10 @@
-//Ryan Carley Solo Project
+/*
+Ryan Carley
+rjc074000
+3/18/15
+Purpose: Main activity that will hold the list of contacts and open the contact entry page.
+To have a list on contacts that will be updated a changes are made to the list
+*/
 package com.example.project1;
 
 
@@ -33,13 +39,15 @@ public class MainActivity extends Activity implements OnClickListener {
 		String[] separated = data.split(":");
 		if(separated[0] == null){System.out.println("separated was null in oncreate:");return;}
 		
-		
+		// Put data from file IO into the table list
 		for(int i = 0; i< separated.length; i++){ 
-			
+
+            // Lots of parsing of data, then putting into the list
 			System.out.println("separated length:" + separated.length + " i:" + i);
 			String[] sep2 = separated[i].split(",");
-			if(sep2[0] == null){System.out.println("sep2 was null in oncreate:");return;}
-			if(sep2.length < 3){return;}
+            if(sep2.length < 1){continue;}
+			if(sep2[0] == null){System.out.println("sep2 was null in oncreate:");continue;}
+			if(sep2.length < 3){continue;}
 			TextView textview = new TextView(this);
 			String entryString = "";
 			if(sep2[0] != null){
@@ -60,27 +68,29 @@ public class MainActivity extends Activity implements OnClickListener {
 			
 			tl.addView( tr1 );
 			tr1.setClickable(true); 
-			
+
+            // Add action listener for the contact to open the contact editor/viewer
 			tr1.setOnClickListener(new OnClickListener() {
 				public void onClick(View v) {
-		            //v.setBackgroundColor(Color.GRAY);
 		            System.out.println("Row clicked: " + v.getId());
 		            Intent intent = new Intent(MainActivity.this, contactPage.class);
-			        //Bundle b = new Bundle();
 			        int vid = v.getId();
-			        //b.putInt("key",  vid); //Your id
-			        //intent.putExtras(b); //Put your id to your next Intent
 			        intent.putExtra("key", vid);
 			        startActivityForResult(intent,1);
-			        //finish();
 		        }
 		    });
 		}
+
+        // Create button for adding new contacts
 		TableRow trB = new TableRow(this);
 		Button btn=new Button(this);
 		btn.setText("Add Person");
-		//btn.setId(-10);
+
+        // This is the correct usage of setId and it works fine (android studio thinks otherwise)
+        // see view.java for: public void setId(int id) {
+		btn.setId(99999999);
 		btn.setOnClickListener(this);
+        btn.setVisibility(View.GONE);
 		trB.addView(btn);
 		tl.addView( trB , new TableLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
 	}
@@ -88,7 +98,16 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
+        setTitle("Contacts");
 		getMenuInflater().inflate(R.menu.main, menu);
+
+        // Hide menu items not needed for this activity
+        MenuItem save = menu.findItem(R.id.action_save);
+        if (save != null){save.setVisible(false);}
+        MenuItem delete = menu.findItem(R.id.action_delete);
+        if (delete != null){delete.setVisible(false);}
+
+
 		return true;
 	}
 
@@ -98,27 +117,39 @@ public class MainActivity extends Activity implements OnClickListener {
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
+
+        // Setup actions, ones that are not available on this page return true
+
+        if (id == R.id.action_new) {
+            System.out.println("Got action_new\n");
+
+            // Find and click the new contact button
+            Button newButton = (Button)findViewById(99999999);
+            newButton.performClick();
+            return true;
+        }
+        if (id == R.id.action_save) {
+            return true;
+        }
+        if (id == R.id.action_delete) {
+            return true;
+        }
 		return super.onOptionsItemSelected(item);
 	}
 
 	@Override
 	public void onClick(View v) {
-		// TODO Auto-generated method stub
-        
+
+		// A Contact was clicked, open page to view it
         System.out.println("btn clicked: " + v.getId());
         Intent intent = new Intent(MainActivity.this, contactPage.class);
         int vid = v.getId();
         intent.putExtra("key", vid);
         startActivityForResult(intent,1);
-		
 	}
 	
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		finish();
 		startActivity(getIntent());
-		
 	}
 }
